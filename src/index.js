@@ -9,16 +9,13 @@ import Exfunct from './Exfunct'
 import Student from './Studentlist';
 import BookListDemo  from './Booklist';
 import BookList from './Booklistexer';
+import Formdeploy from './Formdeploy';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Point  name="Pavithran" age={24}  />
-    <Power />
-    <Exfunct brand="suresh" />
-    <Student />
-    <BookListDemo />
-    <BookList />
+
+    <Formdeploy />
   </React.StrictMode>
 );
 
